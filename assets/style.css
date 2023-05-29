@@ -1,0 +1,113 @@
+/* This is for the ENTIRE page, ie, defaults */
+body {
+    margin: 0;
+    background-color: #232f3e;
+    font-family: tahoma, sans-serif;
+    color: #146eb4;
+}
+
+
+  /* Header, Footer, and Nav Bar */
+header {
+    background-color: #232f3e;
+    color:#ff9900;
+}
+h1 {
+    margin: 0;
+    padding-top: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+hr {
+    border: 1px solid #080300;
+}
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+    background: #232f3e;
+}
+nav a {
+    padding: .5em 2em;
+    text-decoration: none;
+    color: white
+}
+nav a:hover {
+    background-color: #666;
+}
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-color: #666;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    border: 2px solid #000000;
+}
+
+  /* Body Text */
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex > div {
+    text-align: center;
+    width: 30rem;
+}
+.workwork {
+    background-color: #f8f4e1;
+    padding-top: 1rem;
+    border: .25rem solid #050505;
+    border-radius: 5rem;
+    height: 400px;
+    margin-top: 1rem;
+}
+.workwork-img {
+    user-select: none;
+    border-radius: 10rem;
+    height: 40%;
+    width: auto;
+}
+
+
+  /*Package Button */
+.addpackage-img {
+    user-select: none;
+    border-radius: 10rem;
+    width: auto;
+    height: 40%;
+}
+.addpackage-img:hover {
+    cursor: pointer;
+}
+.addpackage-img:active {
+    transform: translateY(20px);
+}
+
+/* Bottom Buttons */
+.Buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+button {
+    padding: 10px 10px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    border: 0.05rem solid #050505;
+    background-color:#ff9900;
+    box-shadow: 0 2px #999;
+}
+button:hover {
+    cursor: pointer;
+}
+button:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
